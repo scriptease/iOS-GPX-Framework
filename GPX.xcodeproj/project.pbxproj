@@ -12,7 +12,7 @@
 		13D46EC6152ECF2400C9A168 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D46EB3152ECF2400C9A168 /* Foundation.framework */; };
 		13D46ED2152ECF2400C9A168 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13D46ED0152ECF2400C9A168 /* InfoPlist.strings */; };
 		13D46ED5152ECF2400C9A168 /* GPXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D46ED4152ECF2400C9A168 /* GPXTests.m */; };
-		4FC95880C07D428C900D93DB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 907C23F77BBF4FE3A0B4A441 /* libPods.a */; };
+		1AAC8AA765E4BDB3C67F9E52 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B048644B442C9151330254B /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +25,14 @@
 		13D46ED3152ECF2400C9A168 /* GPXTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPXTests.h; sourceTree = "<group>"; };
 		13D46ED4152ECF2400C9A168 /* GPXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPXTests.m; sourceTree = "<group>"; };
 		13D46F42152ED24900C9A168 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		907C23F77BBF4FE3A0B4A441 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		179B4C211BD10199004FB721 /* GPX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPX.h; sourceTree = "<group>"; };
+		179B4C231BD10199004FB721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		179B4C271BD10355004FB721 /* libiOS-GPX-Framework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libiOS-GPX-Framework.a"; path = "Pods/../build/Debug-iphoneos/libiOS-GPX-Framework.a"; sourceTree = "<group>"; };
+		179B4C291BD10359004FB721 /* libTBXML.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTBXML.a; path = "Pods/../build/Debug-iphoneos/libTBXML.a"; sourceTree = "<group>"; };
+		5B048644B442C9151330254B /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E8F1B3A5E66C427D169FCB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C1F1B55686E9BBF1B8613415 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		D91CDCBE1989509300001583 /* GPXTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GPXTests-Prefix.pch"; sourceTree = "<group>"; };
-		F6E0E9FE4FD54A6C971E12A3 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +42,7 @@
 			files = (
 				13D46EC3152ECF2400C9A168 /* SenTestingKit.framework in Frameworks */,
 				13D46EC6152ECF2400C9A168 /* Foundation.framework in Frameworks */,
-				4FC95880C07D428C900D93DB /* libPods.a in Frameworks */,
+				1AAC8AA765E4BDB3C67F9E52 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,9 +53,10 @@
 			isa = PBXGroup;
 			children = (
 				13D46ECD152ECF2400C9A168 /* GPXTests */,
+				179B4C201BD10199004FB721 /* GPX */,
 				13D46EB2152ECF2400C9A168 /* Frameworks */,
 				13D46EB1152ECF2400C9A168 /* Products */,
-				F6E0E9FE4FD54A6C971E12A3 /* Pods.xcconfig */,
+				4CE13DB17B8017ABB11B2154 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,10 +71,12 @@
 		13D46EB2152ECF2400C9A168 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				179B4C291BD10359004FB721 /* libTBXML.a */,
+				179B4C271BD10355004FB721 /* libiOS-GPX-Framework.a */,
 				13D46F42152ED24900C9A168 /* UIKit.framework */,
 				13D46EB3152ECF2400C9A168 /* Foundation.framework */,
 				13D46EC2152ECF2400C9A168 /* SenTestingKit.framework */,
-				907C23F77BBF4FE3A0B4A441 /* libPods.a */,
+				5B048644B442C9151330254B /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -94,6 +102,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		179B4C201BD10199004FB721 /* GPX */ = {
+			isa = PBXGroup;
+			children = (
+				179B4C211BD10199004FB721 /* GPX.h */,
+				179B4C231BD10199004FB721 /* Info.plist */,
+			);
+			path = GPX;
+			sourceTree = "<group>";
+		};
+		4CE13DB17B8017ABB11B2154 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1F1B55686E9BBF1B8613415 /* Pods.debug.xcconfig */,
+				61E8F1B3A5E66C427D169FCB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,7 +141,7 @@
 			name = GPXTests;
 			productName = GPXTests;
 			productReference = 13D46EC1152ECF2400C9A168 /* GPXTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -181,7 +207,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F57F210DF867415AB13438DA /* Check Pods Manifest.lock */ = {
@@ -285,7 +311,7 @@
 		};
 		13D46EDC152ECF2400C9A168 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6E0E9FE4FD54A6C971E12A3 /* Pods.xcconfig */;
+			baseConfigurationReference = C1F1B55686E9BBF1B8613415 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -301,7 +327,7 @@
 		};
 		13D46EDD152ECF2400C9A168 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6E0E9FE4FD54A6C971E12A3 /* Pods.xcconfig */;
+			baseConfigurationReference = 61E8F1B3A5E66C427D169FCB /* Pods.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "179B4C1E1BD10199004FB721"
-               BuildableName = "GPX.framework"
-               BlueprintName = "GPX"
-               ReferencedContainer = "container:GPX.xcodeproj">
+               BlueprintIdentifier = "33C1D902DE763EB3ACED3795824421E4"
+               BuildableName = "iOS_GPX_Framework.framework"
+               BlueprintName = "iOS-GPX-Framework"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,16 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "13D46EC0152ECF2400C9A168"
-               BuildableName = "GPXTests.octest"
-               BlueprintName = "GPXTests"
-               ReferencedContainer = "container:GPX.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>
@@ -55,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "179B4C1E1BD10199004FB721"
-            BuildableName = "GPX.framework"
-            BlueprintName = "GPX"
-            ReferencedContainer = "container:GPX.xcodeproj">
+            BlueprintIdentifier = "33C1D902DE763EB3ACED3795824421E4"
+            BuildableName = "iOS_GPX_Framework.framework"
+            BlueprintName = "iOS-GPX-Framework"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
