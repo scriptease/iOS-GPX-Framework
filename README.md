@@ -3,6 +3,7 @@
  
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://opensource.org/licenses/mit-license.php)
 [![Build](https://travis-ci.org/Pierre-Loup/iOS-GPX-Framework.svg)](https://travis-ci.org/Pierre-Loup/iOS-GPX-Framework)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 iOS GPX Framework
 ============================
@@ -18,6 +19,8 @@ This fork is the "iOS-GPX-Framework" pod's source repo. It has been created to m
 Installation
 ---------------------------------
 
+### CocoaPods
+
 iOS-KML-Framework is available through [CocoaPods](http://cocoapods.org), to install
 it simply add the following line to your Podfile:
 
@@ -25,6 +28,16 @@ it simply add the following line to your Podfile:
 platform :ios, '5.1'
 pod 'iOS-GPX-Framework', "~> 0.0"
 ```
+
+### Carthage
+
+iOS-GPX-Framework is also available through [Carthage](https://github.com/Carthage/Carthage). To install it, simply add the following line to your Cartfile:
+
+```ogdl
+github "scriptease/iOS-GPX-Framework"
+```
+
+Note that after building, you'll need to include both iOS\_GPX\_Framework and TBXML in your project.
 
 Usage
 ---------------------------------
